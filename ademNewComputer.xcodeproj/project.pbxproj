@@ -57,6 +57,10 @@
 		35E43CB322E6817C002D2B26 /* DynamicAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB222E6817C002D2B26 /* DynamicAttributes.swift */; };
 		35E43CB522E68193002D2B26 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB422E68193002D2B26 /* Product.swift */; };
 		35E43CB722E681A9002D2B26 /* PantryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB622E681A9002D2B26 /* PantryDataModel.swift */; };
+		35E43CBA22E681DF002D2B26 /* BLEHR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB922E681DF002D2B26 /* BLEHR.swift */; };
+		35E43CBD22E68203002D2B26 /* FirebaseFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CBC22E68203002D2B26 /* FirebaseFiles.swift */; };
+		35E43CC022E6822D002D2B26 /* FriendsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CBF22E6822D002D2B26 /* FriendsLayout.swift */; };
+		35E43CC222E68246002D2B26 /* SettingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CC122E68246002D2B26 /* SettingTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +137,10 @@
 		35E43CB222E6817C002D2B26 /* DynamicAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttributes.swift; sourceTree = "<group>"; };
 		35E43CB422E68193002D2B26 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		35E43CB622E681A9002D2B26 /* PantryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryDataModel.swift; sourceTree = "<group>"; };
+		35E43CB922E681DF002D2B26 /* BLEHR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEHR.swift; sourceTree = "<group>"; };
+		35E43CBC22E68203002D2B26 /* FirebaseFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFiles.swift; sourceTree = "<group>"; };
+		35E43CBF22E6822D002D2B26 /* FriendsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLayout.swift; sourceTree = "<group>"; };
+		35E43CC122E68246002D2B26 /* SettingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +191,9 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43CBE22E68213002D2B26 /* TableViewControllers */,
+				35E43CBB22E681EB002D2B26 /* File Mapping */,
+				35E43CB822E681CE002D2B26 /* Bluetooth */,
 				35E43CB122E68169002D2B26 /* Model */,
 				35E43CAC22E68130002D2B26 /* Services */,
 				35E43C9722E68005002D2B26 /* Views */,
@@ -326,6 +337,31 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		35E43CB822E681CE002D2B26 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				35E43CB922E681DF002D2B26 /* BLEHR.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		35E43CBB22E681EB002D2B26 /* File Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				35E43CBC22E68203002D2B26 /* FirebaseFiles.swift */,
+			);
+			path = "File Mapping";
+			sourceTree = "<group>";
+		};
+		35E43CBE22E68213002D2B26 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35E43CBF22E6822D002D2B26 /* FriendsLayout.swift */,
+				35E43CC122E68246002D2B26 /* SettingTVC.swift */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -464,6 +500,7 @@
 				35E43CA522E680B4002D2B26 /* settingsLayout.swift in Sources */,
 				35E43CB522E68193002D2B26 /* Product.swift in Sources */,
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
+				35E43CC022E6822D002D2B26 /* FriendsLayout.swift in Sources */,
 				35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */,
 				35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */,
 				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
@@ -471,7 +508,9 @@
 				35E43CB022E6815C002D2B26 /* Cloud Storage.swift in Sources */,
 				35E43C7B22E67E22002D2B26 /* Delete cell extension.swift in Sources */,
 				35E43C9922E68020002D2B26 /* AcctCellDesign.swift in Sources */,
+				35E43CC222E68246002D2B26 /* SettingTVC.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
+				35E43CBD22E68203002D2B26 /* FirebaseFiles.swift in Sources */,
 				35E43C8A22E67EFA002D2B26 /* AccountVC.swift in Sources */,
 				35E43CA322E68095002D2B26 /* ItemLayout.swift in Sources */,
 				35E43C6D22E67D35002D2B26 /* CircleTransition.swift in Sources */,
@@ -502,6 +541,7 @@
 				35CB982F22E679BB0072FC9A /* AppDelegate.swift in Sources */,
 				35E43C8422E67EB1002D2B26 /* ItemVC.swift in Sources */,
 				35E43C8022E67E7D002D2B26 /* Login Screen.swift in Sources */,
+				35E43CBA22E681DF002D2B26 /* BLEHR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
