@@ -30,6 +30,18 @@
 		35E43C7922E67E0A002D2B26 /* AppDelegateUserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C7822E67E0A002D2B26 /* AppDelegateUserLogin.swift */; };
 		35E43C7B22E67E22002D2B26 /* Delete cell extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C7A22E67E22002D2B26 /* Delete cell extension.swift */; };
 		35E43C7D22E67E35002D2B26 /* toolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C7C22E67E35002D2B26 /* toolBar.swift */; };
+		35E43C8022E67E7D002D2B26 /* Login Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C7F22E67E7D002D2B26 /* Login Screen.swift */; };
+		35E43C8222E67E96002D2B26 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8122E67E96002D2B26 /* ListVC.swift */; };
+		35E43C8422E67EB1002D2B26 /* ItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8322E67EB1002D2B26 /* ItemVC.swift */; };
+		35E43C8622E67ECD002D2B26 /* PantryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8522E67ECD002D2B26 /* PantryVC.swift */; };
+		35E43C8822E67EE4002D2B26 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8722E67EE4002D2B26 /* Meals.swift */; };
+		35E43C8A22E67EFA002D2B26 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8922E67EFA002D2B26 /* AccountVC.swift */; };
+		35E43C8C22E67F18002D2B26 /* tabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8B22E67F18002D2B26 /* tabController.swift */; };
+		35E43C8E22E67F3A002D2B26 /* ProductInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8D22E67F39002D2B26 /* ProductInfoVC.swift */; };
+		35E43C9022E67F4C002D2B26 /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C8F22E67F4C002D2B26 /* settingVC.swift */; };
+		35E43C9222E67F68002D2B26 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9122E67F68002D2B26 /* SearchVC.swift */; };
+		35E43C9422E67F8E002D2B26 /* PantryVCBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9322E67F8E002D2B26 /* PantryVCBackup.swift */; };
+		35E43C9622E67FA8002D2B26 /* accountBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9522E67FA8002D2B26 /* accountBackup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +91,18 @@
 		35E43C7822E67E0A002D2B26 /* AppDelegateUserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateUserLogin.swift; sourceTree = "<group>"; };
 		35E43C7A22E67E22002D2B26 /* Delete cell extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete cell extension.swift"; sourceTree = "<group>"; };
 		35E43C7C22E67E35002D2B26 /* toolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolBar.swift; sourceTree = "<group>"; };
+		35E43C7F22E67E7D002D2B26 /* Login Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Screen.swift"; sourceTree = "<group>"; };
+		35E43C8122E67E96002D2B26 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		35E43C8322E67EB1002D2B26 /* ItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVC.swift; sourceTree = "<group>"; };
+		35E43C8522E67ECD002D2B26 /* PantryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryVC.swift; sourceTree = "<group>"; };
+		35E43C8722E67EE4002D2B26 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		35E43C8922E67EFA002D2B26 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		35E43C8B22E67F18002D2B26 /* tabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabController.swift; sourceTree = "<group>"; };
+		35E43C8D22E67F39002D2B26 /* ProductInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoVC.swift; sourceTree = "<group>"; };
+		35E43C8F22E67F4C002D2B26 /* settingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
+		35E43C9122E67F68002D2B26 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		35E43C9322E67F8E002D2B26 /* PantryVCBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryVCBackup.swift; sourceTree = "<group>"; };
+		35E43C9522E67FA8002D2B26 /* accountBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountBackup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +153,7 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43C7E22E67E61002D2B26 /* Controllers */,
 				35E43C7322E67DA9002D2B26 /* Extensions */,
 				35E43C7022E67D70002D2B26 /* SignUp */,
 				35E43C6922E67CFF002D2B26 /* Transition */,
@@ -211,6 +236,25 @@
 				35E43C7C22E67E35002D2B26 /* toolBar.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35E43C7E22E67E61002D2B26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35E43C7F22E67E7D002D2B26 /* Login Screen.swift */,
+				35E43C8122E67E96002D2B26 /* ListVC.swift */,
+				35E43C8322E67EB1002D2B26 /* ItemVC.swift */,
+				35E43C8522E67ECD002D2B26 /* PantryVC.swift */,
+				35E43C8722E67EE4002D2B26 /* Meals.swift */,
+				35E43C8922E67EFA002D2B26 /* AccountVC.swift */,
+				35E43C8B22E67F18002D2B26 /* tabController.swift */,
+				35E43C8D22E67F39002D2B26 /* ProductInfoVC.swift */,
+				35E43C8F22E67F4C002D2B26 /* settingVC.swift */,
+				35E43C9122E67F68002D2B26 /* SearchVC.swift */,
+				35E43C9322E67F8E002D2B26 /* PantryVCBackup.swift */,
+				35E43C9522E67FA8002D2B26 /* accountBackup.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E43C8E22E67F3A002D2B26 /* ProductInfoVC.swift in Sources */,
 				35E43C6B22E67D1D002D2B26 /* Circle Trasition.swift in Sources */,
+				35E43C9022E67F4C002D2B26 /* settingVC.swift in Sources */,
 				35E43C7722E67DDF002D2B26 /* Design.Elements.swift in Sources */,
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
 				35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */,
@@ -352,16 +398,26 @@
 				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
 				35E43C7B22E67E22002D2B26 /* Delete cell extension.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
+				35E43C8A22E67EFA002D2B26 /* AccountVC.swift in Sources */,
 				35E43C6D22E67D35002D2B26 /* CircleTransition.swift in Sources */,
 				35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */,
 				35E43C7922E67E0A002D2B26 /* AppDelegateUserLogin.swift in Sources */,
+				35E43C8822E67EE4002D2B26 /* Meals.swift in Sources */,
+				35E43C9422E67F8E002D2B26 /* PantryVCBackup.swift in Sources */,
 				35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */,
 				35E43C7522E67DC8002D2B26 /* Color.swift in Sources */,
 				35E43C7D22E67E35002D2B26 /* toolBar.swift in Sources */,
+				35E43C9622E67FA8002D2B26 /* accountBackup.swift in Sources */,
 				35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */,
 				35E43C7222E67D97002D2B26 /* SignUpInfo.swift in Sources */,
+				35E43C9222E67F68002D2B26 /* SearchVC.swift in Sources */,
+				35E43C8622E67ECD002D2B26 /* PantryVC.swift in Sources */,
+				35E43C8222E67E96002D2B26 /* ListVC.swift in Sources */,
 				35E43C6F22E67D4A002D2B26 /* swipe.swift in Sources */,
+				35E43C8C22E67F18002D2B26 /* tabController.swift in Sources */,
 				35CB982F22E679BB0072FC9A /* AppDelegate.swift in Sources */,
+				35E43C8422E67EB1002D2B26 /* ItemVC.swift in Sources */,
+				35E43C8022E67E7D002D2B26 /* Login Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
