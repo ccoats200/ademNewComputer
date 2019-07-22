@@ -20,6 +20,10 @@
 		35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6022E67C2B002D2B26 /* productCell.swift */; };
 		35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6222E67C44002D2B26 /* AccountVCOld.swift */; };
 		35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6422E67C57002D2B26 /* profileVC.swift */; };
+		35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6722E67CEB002D2B26 /* Custom Alert.swift */; };
+		35E43C6B22E67D1D002D2B26 /* Circle Trasition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6A22E67D1D002D2B26 /* Circle Trasition.swift */; };
+		35E43C6D22E67D35002D2B26 /* CircleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6C22E67D35002D2B26 /* CircleTransition.swift */; };
+		35E43C6F22E67D4A002D2B26 /* swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6E22E67D4A002D2B26 /* swipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		35E43C6022E67C2B002D2B26 /* productCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productCell.swift; sourceTree = "<group>"; };
 		35E43C6222E67C44002D2B26 /* AccountVCOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVCOld.swift; sourceTree = "<group>"; };
 		35E43C6422E67C57002D2B26 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		35E43C6722E67CEB002D2B26 /* Custom Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Alert.swift"; sourceTree = "<group>"; };
+		35E43C6A22E67D1D002D2B26 /* Circle Trasition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circle Trasition.swift"; sourceTree = "<group>"; };
+		35E43C6C22E67D35002D2B26 /* CircleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransition.swift; sourceTree = "<group>"; };
+		35E43C6E22E67D4A002D2B26 /* swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,8 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43C6922E67CFF002D2B26 /* Transition */,
+				35E43C6622E67CDA002D2B26 /* Alert */,
 				35E43C5B22E67BD2002D2B26 /* New Group */,
 				35CB982E22E679BB0072FC9A /* AppDelegate.swift */,
 				35CB983022E679BB0072FC9A /* ViewController.swift */,
@@ -149,6 +159,24 @@
 				35E43C6422E67C57002D2B26 /* profileVC.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		35E43C6622E67CDA002D2B26 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				35E43C6722E67CEB002D2B26 /* Custom Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		35E43C6922E67CFF002D2B26 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				35E43C6A22E67D1D002D2B26 /* Circle Trasition.swift */,
+				35E43C6C22E67D35002D2B26 /* CircleTransition.swift */,
+				35E43C6E22E67D4A002D2B26 /* swipe.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,13 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E43C6B22E67D1D002D2B26 /* Circle Trasition.swift in Sources */,
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
+				35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */,
 				35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */,
 				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
+				35E43C6D22E67D35002D2B26 /* CircleTransition.swift in Sources */,
 				35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */,
 				35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */,
 				35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */,
+				35E43C6F22E67D4A002D2B26 /* swipe.swift in Sources */,
 				35CB982F22E679BB0072FC9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
