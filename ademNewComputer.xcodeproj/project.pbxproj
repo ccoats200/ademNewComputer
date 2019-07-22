@@ -15,6 +15,11 @@
 		35CB983C22E679BD0072FC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CB983A22E679BD0072FC9A /* LaunchScreen.storyboard */; };
 		35CB984722E679BE0072FC9A /* ademNewComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB984622E679BE0072FC9A /* ademNewComputerTests.swift */; };
 		35CB985222E679BE0072FC9A /* ademNewComputerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB985122E679BE0072FC9A /* ademNewComputerUITests.swift */; };
+		35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C5C22E67BE9002D2B26 /* TableViewTest.swift */; };
+		35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C5E22E67C10002D2B26 /* TestingAccount.swift */; };
+		35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6022E67C2B002D2B26 /* productCell.swift */; };
+		35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6222E67C44002D2B26 /* AccountVCOld.swift */; };
+		35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C6422E67C57002D2B26 /* profileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		35CB984D22E679BE0072FC9A /* ademNewComputerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ademNewComputerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CB985122E679BE0072FC9A /* ademNewComputerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ademNewComputerUITests.swift; sourceTree = "<group>"; };
 		35CB985322E679BE0072FC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E43C5C22E67BE9002D2B26 /* TableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTest.swift; sourceTree = "<group>"; };
+		35E43C5E22E67C10002D2B26 /* TestingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAccount.swift; sourceTree = "<group>"; };
+		35E43C6022E67C2B002D2B26 /* productCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productCell.swift; sourceTree = "<group>"; };
+		35E43C6222E67C44002D2B26 /* AccountVCOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVCOld.swift; sourceTree = "<group>"; };
+		35E43C6422E67C57002D2B26 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43C5B22E67BD2002D2B26 /* New Group */,
 				35CB982E22E679BB0072FC9A /* AppDelegate.swift */,
 				35CB983022E679BB0072FC9A /* ViewController.swift */,
 				35CB983222E679BB0072FC9A /* Main.storyboard */,
@@ -126,6 +137,18 @@
 				35CB985322E679BE0072FC9A /* Info.plist */,
 			);
 			path = ademNewComputerUITests;
+			sourceTree = "<group>";
+		};
+		35E43C5B22E67BD2002D2B26 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				35E43C5C22E67BE9002D2B26 /* TableViewTest.swift */,
+				35E43C5E22E67C10002D2B26 /* TestingAccount.swift */,
+				35E43C6022E67C2B002D2B26 /* productCell.swift */,
+				35E43C6222E67C44002D2B26 /* AccountVCOld.swift */,
+				35E43C6422E67C57002D2B26 /* profileVC.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
+				35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */,
+				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
+				35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */,
+				35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */,
+				35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */,
 				35CB982F22E679BB0072FC9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
