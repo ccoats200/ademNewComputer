@@ -42,6 +42,16 @@
 		35E43C9222E67F68002D2B26 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9122E67F68002D2B26 /* SearchVC.swift */; };
 		35E43C9422E67F8E002D2B26 /* PantryVCBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9322E67F8E002D2B26 /* PantryVCBackup.swift */; };
 		35E43C9622E67FA8002D2B26 /* accountBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9522E67FA8002D2B26 /* accountBackup.swift */; };
+		35E43C9922E68020002D2B26 /* AcctCellDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9822E68020002D2B26 /* AcctCellDesign.swift */; };
+		35E43C9B22E68040002D2B26 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9A22E68040002D2B26 /* ProductCell.swift */; };
+		35E43C9D22E68053002D2B26 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9C22E68053002D2B26 /* tabBar.swift */; };
+		35E43C9F22E6806A002D2B26 /* CellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43C9E22E6806A002D2B26 /* CellLayout.swift */; };
+		35E43CA122E6807E002D2B26 /* AcctElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA022E6807E002D2B26 /* AcctElements.swift */; };
+		35E43CA322E68095002D2B26 /* ItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA222E68095002D2B26 /* ItemLayout.swift */; };
+		35E43CA522E680B4002D2B26 /* settingsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA422E680B4002D2B26 /* settingsLayout.swift */; };
+		35E43CA722E680D0002D2B26 /* pantryCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA622E680D0002D2B26 /* pantryCellLayout.swift */; };
+		35E43CA922E680E9002D2B26 /* ItemVCLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA822E680E9002D2B26 /* ItemVCLayout.swift */; };
+		35E43CAB22E680FF002D2B26 /* accountViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CAA22E680FF002D2B26 /* accountViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +113,16 @@
 		35E43C9122E67F68002D2B26 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		35E43C9322E67F8E002D2B26 /* PantryVCBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryVCBackup.swift; sourceTree = "<group>"; };
 		35E43C9522E67FA8002D2B26 /* accountBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountBackup.swift; sourceTree = "<group>"; };
+		35E43C9822E68020002D2B26 /* AcctCellDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcctCellDesign.swift; sourceTree = "<group>"; };
+		35E43C9A22E68040002D2B26 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		35E43C9C22E68053002D2B26 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
+		35E43C9E22E6806A002D2B26 /* CellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLayout.swift; sourceTree = "<group>"; };
+		35E43CA022E6807E002D2B26 /* AcctElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcctElements.swift; sourceTree = "<group>"; };
+		35E43CA222E68095002D2B26 /* ItemLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLayout.swift; sourceTree = "<group>"; };
+		35E43CA422E680B4002D2B26 /* settingsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsLayout.swift; sourceTree = "<group>"; };
+		35E43CA622E680D0002D2B26 /* pantryCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantryCellLayout.swift; sourceTree = "<group>"; };
+		35E43CA822E680E9002D2B26 /* ItemVCLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVCLayout.swift; sourceTree = "<group>"; };
+		35E43CAA22E680FF002D2B26 /* accountViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +173,7 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43C9722E68005002D2B26 /* Views */,
 				35E43C7E22E67E61002D2B26 /* Controllers */,
 				35E43C7322E67DA9002D2B26 /* Extensions */,
 				35E43C7022E67D70002D2B26 /* SignUp */,
@@ -255,6 +276,23 @@
 				35E43C9522E67FA8002D2B26 /* accountBackup.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		35E43C9722E68005002D2B26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35E43C9822E68020002D2B26 /* AcctCellDesign.swift */,
+				35E43C9A22E68040002D2B26 /* ProductCell.swift */,
+				35E43C9C22E68053002D2B26 /* tabBar.swift */,
+				35E43C9E22E6806A002D2B26 /* CellLayout.swift */,
+				35E43CA022E6807E002D2B26 /* AcctElements.swift */,
+				35E43CA222E68095002D2B26 /* ItemLayout.swift */,
+				35E43CA422E680B4002D2B26 /* settingsLayout.swift */,
+				35E43CA622E680D0002D2B26 /* pantryCellLayout.swift */,
+				35E43CA822E680E9002D2B26 /* ItemVCLayout.swift */,
+				35E43CAA22E680FF002D2B26 /* accountViews.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,29 +430,39 @@
 				35E43C6B22E67D1D002D2B26 /* Circle Trasition.swift in Sources */,
 				35E43C9022E67F4C002D2B26 /* settingVC.swift in Sources */,
 				35E43C7722E67DDF002D2B26 /* Design.Elements.swift in Sources */,
+				35E43CA522E680B4002D2B26 /* settingsLayout.swift in Sources */,
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
 				35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */,
 				35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */,
 				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
+				35E43CA722E680D0002D2B26 /* pantryCellLayout.swift in Sources */,
 				35E43C7B22E67E22002D2B26 /* Delete cell extension.swift in Sources */,
+				35E43C9922E68020002D2B26 /* AcctCellDesign.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
 				35E43C8A22E67EFA002D2B26 /* AccountVC.swift in Sources */,
+				35E43CA322E68095002D2B26 /* ItemLayout.swift in Sources */,
 				35E43C6D22E67D35002D2B26 /* CircleTransition.swift in Sources */,
+				35E43C9B22E68040002D2B26 /* ProductCell.swift in Sources */,
 				35E43C6522E67C57002D2B26 /* profileVC.swift in Sources */,
 				35E43C7922E67E0A002D2B26 /* AppDelegateUserLogin.swift in Sources */,
 				35E43C8822E67EE4002D2B26 /* Meals.swift in Sources */,
 				35E43C9422E67F8E002D2B26 /* PantryVCBackup.swift in Sources */,
+				35E43CA922E680E9002D2B26 /* ItemVCLayout.swift in Sources */,
 				35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */,
 				35E43C7522E67DC8002D2B26 /* Color.swift in Sources */,
 				35E43C7D22E67E35002D2B26 /* toolBar.swift in Sources */,
 				35E43C9622E67FA8002D2B26 /* accountBackup.swift in Sources */,
 				35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */,
 				35E43C7222E67D97002D2B26 /* SignUpInfo.swift in Sources */,
+				35E43C9D22E68053002D2B26 /* tabBar.swift in Sources */,
+				35E43C9F22E6806A002D2B26 /* CellLayout.swift in Sources */,
 				35E43C9222E67F68002D2B26 /* SearchVC.swift in Sources */,
 				35E43C8622E67ECD002D2B26 /* PantryVC.swift in Sources */,
+				35E43CAB22E680FF002D2B26 /* accountViews.swift in Sources */,
 				35E43C8222E67E96002D2B26 /* ListVC.swift in Sources */,
 				35E43C6F22E67D4A002D2B26 /* swipe.swift in Sources */,
 				35E43C8C22E67F18002D2B26 /* tabController.swift in Sources */,
+				35E43CA122E6807E002D2B26 /* AcctElements.swift in Sources */,
 				35CB982F22E679BB0072FC9A /* AppDelegate.swift in Sources */,
 				35E43C8422E67EB1002D2B26 /* ItemVC.swift in Sources */,
 				35E43C8022E67E7D002D2B26 /* Login Screen.swift in Sources */,
