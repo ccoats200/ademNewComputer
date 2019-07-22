@@ -52,6 +52,11 @@
 		35E43CA722E680D0002D2B26 /* pantryCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA622E680D0002D2B26 /* pantryCellLayout.swift */; };
 		35E43CA922E680E9002D2B26 /* ItemVCLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CA822E680E9002D2B26 /* ItemVCLayout.swift */; };
 		35E43CAB22E680FF002D2B26 /* accountViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CAA22E680FF002D2B26 /* accountViews.swift */; };
+		35E43CAE22E68143002D2B26 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CAD22E68143002D2B26 /* DataService.swift */; };
+		35E43CB022E6815C002D2B26 /* Cloud Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CAF22E6815C002D2B26 /* Cloud Storage.swift */; };
+		35E43CB322E6817C002D2B26 /* DynamicAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB222E6817C002D2B26 /* DynamicAttributes.swift */; };
+		35E43CB522E68193002D2B26 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB422E68193002D2B26 /* Product.swift */; };
+		35E43CB722E681A9002D2B26 /* PantryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CB622E681A9002D2B26 /* PantryDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +128,11 @@
 		35E43CA622E680D0002D2B26 /* pantryCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantryCellLayout.swift; sourceTree = "<group>"; };
 		35E43CA822E680E9002D2B26 /* ItemVCLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVCLayout.swift; sourceTree = "<group>"; };
 		35E43CAA22E680FF002D2B26 /* accountViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViews.swift; sourceTree = "<group>"; };
+		35E43CAD22E68143002D2B26 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		35E43CAF22E6815C002D2B26 /* Cloud Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cloud Storage.swift"; sourceTree = "<group>"; };
+		35E43CB222E6817C002D2B26 /* DynamicAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttributes.swift; sourceTree = "<group>"; };
+		35E43CB422E68193002D2B26 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		35E43CB622E681A9002D2B26 /* PantryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +183,8 @@
 		35CB982D22E679BB0072FC9A /* ademNewComputer */ = {
 			isa = PBXGroup;
 			children = (
+				35E43CB122E68169002D2B26 /* Model */,
+				35E43CAC22E68130002D2B26 /* Services */,
 				35E43C9722E68005002D2B26 /* Views */,
 				35E43C7E22E67E61002D2B26 /* Controllers */,
 				35E43C7322E67DA9002D2B26 /* Extensions */,
@@ -293,6 +305,25 @@
 				35E43CAA22E680FF002D2B26 /* accountViews.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		35E43CAC22E68130002D2B26 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35E43CAD22E68143002D2B26 /* DataService.swift */,
+				35E43CAF22E6815C002D2B26 /* Cloud Storage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		35E43CB122E68169002D2B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35E43CB222E6817C002D2B26 /* DynamicAttributes.swift */,
+				35E43CB422E68193002D2B26 /* Product.swift */,
+				35E43CB622E681A9002D2B26 /* PantryDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,11 +462,13 @@
 				35E43C9022E67F4C002D2B26 /* settingVC.swift in Sources */,
 				35E43C7722E67DDF002D2B26 /* Design.Elements.swift in Sources */,
 				35E43CA522E680B4002D2B26 /* settingsLayout.swift in Sources */,
+				35E43CB522E68193002D2B26 /* Product.swift in Sources */,
 				35CB983122E679BB0072FC9A /* ViewController.swift in Sources */,
 				35E43C6822E67CEB002D2B26 /* Custom Alert.swift in Sources */,
 				35E43C6122E67C2B002D2B26 /* productCell.swift in Sources */,
 				35E43C5D22E67BE9002D2B26 /* TableViewTest.swift in Sources */,
 				35E43CA722E680D0002D2B26 /* pantryCellLayout.swift in Sources */,
+				35E43CB022E6815C002D2B26 /* Cloud Storage.swift in Sources */,
 				35E43C7B22E67E22002D2B26 /* Delete cell extension.swift in Sources */,
 				35E43C9922E68020002D2B26 /* AcctCellDesign.swift in Sources */,
 				35CB983722E679BB0072FC9A /* ademNewComputer.xcdatamodeld in Sources */,
@@ -451,11 +484,14 @@
 				35E43C6322E67C44002D2B26 /* AccountVCOld.swift in Sources */,
 				35E43C7522E67DC8002D2B26 /* Color.swift in Sources */,
 				35E43C7D22E67E35002D2B26 /* toolBar.swift in Sources */,
+				35E43CB722E681A9002D2B26 /* PantryDataModel.swift in Sources */,
+				35E43CB322E6817C002D2B26 /* DynamicAttributes.swift in Sources */,
 				35E43C9622E67FA8002D2B26 /* accountBackup.swift in Sources */,
 				35E43C5F22E67C10002D2B26 /* TestingAccount.swift in Sources */,
 				35E43C7222E67D97002D2B26 /* SignUpInfo.swift in Sources */,
 				35E43C9D22E68053002D2B26 /* tabBar.swift in Sources */,
 				35E43C9F22E6806A002D2B26 /* CellLayout.swift in Sources */,
+				35E43CAE22E68143002D2B26 /* DataService.swift in Sources */,
 				35E43C9222E67F68002D2B26 /* SearchVC.swift in Sources */,
 				35E43C8622E67ECD002D2B26 /* PantryVC.swift in Sources */,
 				35E43CAB22E680FF002D2B26 /* accountViews.swift in Sources */,
