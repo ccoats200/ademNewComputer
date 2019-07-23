@@ -61,6 +61,7 @@
 		35E43CBD22E68203002D2B26 /* FirebaseFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CBC22E68203002D2B26 /* FirebaseFiles.swift */; };
 		35E43CC022E6822D002D2B26 /* FriendsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CBF22E6822D002D2B26 /* FriendsLayout.swift */; };
 		35E43CC222E68246002D2B26 /* SettingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E43CC122E68246002D2B26 /* SettingTVC.swift */; };
+		35E43CC622E68B44002D2B26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35E43CC522E68B44002D2B26 /* GoogleService-Info.plist */; };
 		605E4AD90EEB55D0CBA376CB /* Pods_ademNewComputerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158673F25343896B08638988 /* Pods_ademNewComputerUITests.framework */; };
 		ACEF63C3BA3423982D356417 /* Pods_ademNewComputerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461801C3795FC8D257380E7 /* Pods_ademNewComputerTests.framework */; };
 		F08F58C4F963939438F73E01 /* Pods_ademNewComputer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E04E5ED87B2ADA27F64367 /* Pods_ademNewComputer.framework */; };
@@ -145,6 +146,7 @@
 		35E43CBC22E68203002D2B26 /* FirebaseFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFiles.swift; sourceTree = "<group>"; };
 		35E43CBF22E6822D002D2B26 /* FriendsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLayout.swift; sourceTree = "<group>"; };
 		35E43CC122E68246002D2B26 /* SettingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTVC.swift; sourceTree = "<group>"; };
+		35E43CC522E68B44002D2B26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5461801C3795FC8D257380E7 /* Pods_ademNewComputerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ademNewComputerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3BA109A355960EB8A5F210 /* Pods-ademNewComputerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ademNewComputerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ademNewComputerUITests/Pods-ademNewComputerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AA78CA9286A0E9794EF79FE /* Pods-ademNewComputer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ademNewComputer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ademNewComputer/Pods-ademNewComputer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				35E43C5B22E67BD2002D2B26 /* New Group */,
 				35CB982E22E679BB0072FC9A /* AppDelegate.swift */,
 				35CB983022E679BB0072FC9A /* ViewController.swift */,
+				35E43CC522E68B44002D2B26 /* GoogleService-Info.plist */,
 				35CB983222E679BB0072FC9A /* Main.storyboard */,
 				35CB983822E679BD0072FC9A /* Assets.xcassets */,
 				35CB983A22E679BD0072FC9A /* LaunchScreen.storyboard */,
@@ -413,6 +416,8 @@
 				35CB982722E679BB0072FC9A /* Sources */,
 				35CB982822E679BB0072FC9A /* Frameworks */,
 				35CB982922E679BB0072FC9A /* Resources */,
+				36E9E18C4CF2AFD025229DA8 /* [CP] Embed Pods Frameworks */,
+				1BBD2B39DE735874896C8A0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -510,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CB983C22E679BD0072FC9A /* LaunchScreen.storyboard in Resources */,
+				35E43CC622E68B44002D2B26 /* GoogleService-Info.plist in Resources */,
 				35CB983922E679BD0072FC9A /* Assets.xcassets in Resources */,
 				35CB983422E679BB0072FC9A /* Main.storyboard in Resources */,
 			);
@@ -532,6 +538,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1BBD2B39DE735874896C8A0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ademNewComputer/Pods-ademNewComputer-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ademNewComputer/Pods-ademNewComputer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2A034CEBA85245F82986CA84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +572,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E9E18C4CF2AFD025229DA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ademNewComputer/Pods-ademNewComputer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ademNewComputer/Pods-ademNewComputer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		597D40C00747C2C3741E53C7 /* [CP] Check Pods Manifest.lock */ = {

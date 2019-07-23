@@ -5,6 +5,8 @@
 //  Created by Coleman Coats on 7/22/19.
 //  Copyright © 2019 Coleman Coats. All rights reserved.
 //
+import Foundation
+import UIKit
 
 class searchControllers: CellBasics {
 	
