@@ -13,7 +13,7 @@ var docRef: DocumentReference!
 var colRef: CollectionReference!
 var handle: AuthStateDidChangeListenerHandle?
 let user = Auth.auth().currentUser
-
+let finalPushtoGitHub = "Time to reset old mac"
 
 let usersInfo = "Users/user/info/fluid"
 let userNames = "Users/user"
