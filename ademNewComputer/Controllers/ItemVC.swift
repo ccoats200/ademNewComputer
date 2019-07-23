@@ -14,19 +14,8 @@ import CoreBluetooth
 
 class ProductVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
 	
-	/*
-	//for meal suggestion
-	var item = CurrentItemScreen
-	if meal.contains(item) {
-	takeTopThreeMostRelevant
-	}
-	*/
-	
-	
 	//Reuse ID's
 	let productForVC = "Product"
-	
-	
 	let productNames = "Eggs"
 	
 	
@@ -38,7 +27,7 @@ class ProductVC: UICollectionViewController, UICollectionViewDelegateFlowLayout 
 		
 		let productName = UILabel()
 		productName.text = "\(productNames)"
-		productName.font = UIFont(name: "Lato", size: 20)
+		productName.font = UIFont(name: "Lato", size: 25)
 		productName.textColor = UIColor.white
 		navigationItem.titleView = productName
 		navigationController?.navigationBar.isTranslucent = false

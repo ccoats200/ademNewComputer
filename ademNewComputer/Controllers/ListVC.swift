@@ -23,7 +23,7 @@ class listCollectionView: UICollectionViewController, UICollectionViewDelegateFl
 	let user = Auth.auth().currentUser
 	let minimuPasswordCount = 6
 	
-	
+	let mostRecent = "most recent"
 	let productRFIDNumber = "3860407808"
 	
 	//reuse ID's
